@@ -5,6 +5,8 @@ import json, requests, sys
 
 from config import APPID
 
+# FROM LESSON - OBSOLETE?
+
 # # Compute location from command line arguments.
 # if len(sys.argv) < 2:
 # 	print('Usage: getOpenWeather.py city_name, 2-letter_country_code')
@@ -15,6 +17,8 @@ from config import APPID
 # url = 'http://api.openweathermap.org/data/2.5/forecast/daily?q=%s&cnt=3&APPID%s ' % (location, APPID)
 # response = requests.get(url)
 # response.raise_for_status()
+
+# REWORKING TO FIT CURRENT API USAGE:
 
 # Compute location from command line arguments.
 if len(sys.argv) < 2:
